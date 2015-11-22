@@ -9,6 +9,7 @@ sudo apt-get install -y \
     git-core \
     autoconf \
     bison \
+    libxslt-dev \
     libxml2-dev \
     libbz2-dev \
     libmcrypt-dev \
@@ -63,6 +64,7 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --enable-zip \
                   --with-readline \
                   --with-curl \
+                  --with-xsl \
                   --enable-fpm \
                   --with-fpm-user=www-data \
                   --with-fpm-group=www-data"
