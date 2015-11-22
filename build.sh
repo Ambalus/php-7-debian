@@ -62,6 +62,7 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --enable-wddx \
                   --with-zlib \
                   --enable-zip \
+                  --enable-debug \
                   --with-readline \
                   --with-curl \
                   --with-xsl \
@@ -71,5 +72,5 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
 
 ./configure $CONFIGURE_STRING
 
-make
+make -j$(nproc)
 sudo make install

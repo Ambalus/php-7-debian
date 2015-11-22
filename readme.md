@@ -100,6 +100,7 @@ Note that most of the third-party PHP extensions are [not yet compatible with PH
 	sysvshm
 	tokenizer
 	wddx
+	xsl
 	xml
 	xmlreader
 	xmlwriter
